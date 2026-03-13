@@ -136,7 +136,8 @@ shortify
 
 ## Clone Repository
 
-git clone https://github.com/YOUR_USERNAME/Shortify.git cd Shortify
+git clone https://github.com/YOUR_USERNAME/Shortify.git 
+cd Shortify
 
 ------------------------------------------------------------------------
 
@@ -161,7 +162,9 @@ mvn spring-boot:run
 
 ## Frontend Setup
 
-cd frontend npm install npm run dev
+cd frontend 
+npm install 
+npm run dev
 
 Frontend runs at:
 
