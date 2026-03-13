@@ -80,9 +80,18 @@ Hibernate Database (MySQL)
 
 # 📂 Project Structure
 
-shortify │ ├── frontend ├── backend ├── screenshots │ ├── analytics1.png
-│ ├── analytics2.png │ ├── dashboard.png │ ├── landing_page.png │ ├──
-login.png │ ├── mylinks.png │ └── register.png │ └── README.md
+shortify 
+├── frontend 
+├── backend 
+├── screenshots 
+│ ├── analytics1.png
+│ ├── analytics2.png 
+│ ├── dashboard.png 
+│ ├── landing_page.png 
+│ ├──login.png 
+│ ├── mylinks.png 
+│ └── register.png 
+├── README.md
 
 ------------------------------------------------------------------------
 
