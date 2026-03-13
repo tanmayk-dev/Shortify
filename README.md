@@ -1,54 +1,57 @@
 # Shortify 🔗
 
-Shortify is a modern **URL Shortener SaaS platform** that allows users
-to shorten links, track analytics, and manage their URLs through a clean
-dashboard interface.
+A modern full‑stack **URL Shortener SaaS platform** built with React,
+Spring Boot, and MySQL.
 
-Built as a full-stack web application with authentication, analytics,
-and link management features.
-
-------------------------------------------------------------------------
-
-## 🚀 Features
-
--   🔗 Create short URLs instantly
--   📊 Link analytics with click tracking
--   📁 Manage all links in a dashboard
--   📈 Performance charts and statistics
--   🔐 Secure authentication (Login / Register)
--   📱 Responsive modern UI
--   📋 Copy short links to clipboard
--   🔍 Search and manage links easily
+Shortify allows users to create short links, manage them through a
+dashboard, and analyze link performance using a clean analytics
+interface.
 
 ------------------------------------------------------------------------
 
-## 🖥️ Screenshots
+# 🚀 Features
 
-Add screenshots of your application inside a `screenshots` folder.
+## 🔗 URL Shortening
 
-Example:
+-   Generate short links instantly
+-   Custom alias support
+-   Copy links to clipboard
+-   QR code generation
 
--   Landing Page
-![Landing](screenshots/landing_page.png)
--   Dashboard
-![Dashboard](screenshots/dashboard.png)
--   Analytics Page
-![Analytics1](screenshots/analytics1.png)
-![Analytics2](screenshots/analytics2.png)
--   My Links Page
-![Mylinks](screenshots/mylinks.png)
--Login
-![Login](screenshots/login.png)
--Register
-![register](screenshots/register.png)
+## 📊 Analytics
+
+-   Click tracking
+-   Link performance chart
+-   Most popular links insight
+
+## 📁 Link Management
+
+-   View all created links
+-   Search links instantly
+-   Delete links
+-   Open shortened links
+
+## 🔐 Authentication
+
+-   User registration
+-   Secure login
+-   JWT authentication
+-   Protected routes
+
+## 🎨 Modern UI
+
+-   Responsive SaaS‑style dashboard
+-   Mobile‑friendly layout
+-   Interactive UI components
 
 ------------------------------------------------------------------------
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 ### Frontend
 
 -   React
+-   Vite
 -   Tailwind CSS
 -   React Router
 -   Chart.js
@@ -56,49 +59,121 @@ Example:
 
 ### Backend
 
--   Spring Boot / Node.js REST API
+-   Java
+-   Spring Boot
+-   REST API
+-   JWT Authentication
 
 ### Database
 
--   MySQL / PostgreSQL
+-   MySQL
+-   Hibernate / JPA
 
 ------------------------------------------------------------------------
 
-## 📂 Project Structure
+# 🏗 System Architecture
 
-shortify ├── frontend │ ├── src │ ├── package.json │ └── vite.config.js
-│ ├── backend │ ├── src │ ├── pom.xml / package.json │ └──
-application.properties │ ├── screenshots │ ├── dashboard.png │ ├──
-analytics.png │ └── landing.png │ └── README.md
+Frontend (React + Vite) ↓ REST API Backend (Spring Boot) ↓ JPA /
+Hibernate Database (MySQL)
 
 ------------------------------------------------------------------------
 
-## ⚙️ Installation
+# 📂 Project Structure
 
-### Clone the repository
+shortify │ ├── frontend ├── backend ├── screenshots │ ├── analytics1.png
+│ ├── analytics2.png │ ├── dashboard.png │ ├── landing_page.png │ ├──
+login.png │ ├── mylinks.png │ └── register.png │ └── README.md
 
-git clone https://github.com/YOUR_USERNAME/shortify.git
+------------------------------------------------------------------------
 
-### Install frontend
+# 🖼 Application Screenshots
+
+## Landing Page
+
+![Landing Page](screenshots/landing_page.png)
+
+## Login Page
+
+![Login](screenshots/login.png)
+
+## Register Page
+
+![Register](screenshots/register.png)
+
+## Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+## My Links
+
+![My Links](screenshots/mylinks.png)
+
+## Analytics
+
+![Analytics](screenshots/analytics1.png)
+
+![Analytics Chart](screenshots/analytics2.png)
+
+------------------------------------------------------------------------
+
+# ⚙️ Installation
+
+## Clone Repository
+
+git clone https://github.com/YOUR_USERNAME/Shortify.git cd Shortify
+
+------------------------------------------------------------------------
+
+## Backend Setup
+
+cd backend
+
+Configure database inside:
+
+application.properties
+
+Example:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/shortify
+spring.datasource.username=root spring.datasource.password=yourpassword
+
+Run backend:
+
+mvn spring-boot:run
+
+------------------------------------------------------------------------
+
+## Frontend Setup
 
 cd frontend npm install npm run dev
 
-### Run backend
+Frontend runs at:
 
-cd backend mvn spring-boot:run
+http://localhost:5173
 
 ------------------------------------------------------------------------
 
-## 📊 Future Improvements
+# 📊 Future Improvements
 
 -   Dark mode
 -   Custom domains
 -   Expiring links
--   QR code analytics
--   Team workspaces
+-   Advanced analytics
+-   Cloud deployment
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Author
+# 💼 Resume Description
 
-**Tanmay Kaldate**
+Developed a full‑stack URL shortener platform using React, Spring Boot,
+and MySQL enabling users to generate custom short links, track click
+analytics, and manage URLs through a responsive dashboard with
+authentication and data visualization.
+
+------------------------------------------------------------------------
+
+# 👨‍💻 Author
+
+Tanmay Kaldate
+
+GitHub: https://github.com/tanmay-kaldate-26
