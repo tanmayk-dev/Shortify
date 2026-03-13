@@ -136,14 +136,18 @@ shortify
 
 ## Clone Repository
 
+```
 git clone https://github.com/YOUR_USERNAME/Shortify.git 
 cd Shortify
+```
 
 ------------------------------------------------------------------------
 
 ## Backend Setup
 
+```
 cd backend
+```
 
 Configure database inside:
 
@@ -156,16 +160,22 @@ spring.datasource.username=root spring.datasource.password=yourpassword
 
 Run backend:
 
+```
 mvn spring-boot:run
+```
 
 ------------------------------------------------------------------------
 
 ## Frontend Setup
 
+```
 cd frontend 
+
 npm install 
+
 npm run dev
 
+```
 Frontend runs at:
 
 http://localhost:5173
