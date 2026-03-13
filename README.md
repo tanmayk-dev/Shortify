@@ -1,7 +1,13 @@
 # Shortify 🔗
 
+<p align="center">
+  <img src="screenshots/landing_page.png" width="900" />
+</p>
+
+<p align="center">
 A modern full‑stack **URL Shortener SaaS platform** built with React,
 Spring Boot, and MySQL.
+</p>
 
 Shortify allows users to create short links, manage them through a
 dashboard, and analyze link performance using a clean analytics
@@ -80,9 +86,10 @@ Hibernate Database (MySQL)
 
 # 📂 Project Structure
 
+```
 shortify 
-├── frontend 
-├── backend 
+├── frontend/   #React+ Vite frontend 
+├── backend/    #Spring Boot backend
 ├── screenshots 
 │ ├── analytics1.png
 │ ├── analytics2.png 
@@ -92,7 +99,7 @@ shortify
 │ ├── mylinks.png 
 │ └── register.png 
 ├── README.md
-
+```
 ------------------------------------------------------------------------
 
 # 🖼 Application Screenshots
